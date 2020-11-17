@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Items Multiples</string>
+    <string name="logo_desafio_latam">Logo Desafio Latam</string>
+    <string name="seccion_de_carga_de_imagenes">SECCION DE CARGA DE IMAGENES</string>
+    <string name="cargue_una_imagen_aqu">Cargue una imagen aquí</string>
+    <string name="cargar_imagen">CARGAR IMAGEN</string>
+    <string name="siguiente">SIGUIENTE</string>
+    <string name="logo_de_desafio_latam">Logo Desafio Latam</string>
+    <string name="open_web">ABRIR WEB</string>
+    <string name="share_information">COMPARTIR INFORMACION</string>
+</resources>
