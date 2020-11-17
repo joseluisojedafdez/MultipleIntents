@@ -2,7 +2,6 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/bt_next"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -31,8 +30,8 @@
 
     <ImageView
         android:id="@+id/img_ImagenCargada"
-        android:layout_width="184dp"
-        android:layout_height="180dp"
+        android:layout_width="268dp"
+        android:layout_height="302dp"
         android:contentDescription="@string/cargue_una_imagen_aqu"
         android:padding="16dp"
         app:layout_constraintBottom_toTopOf="@+id/bt_CargarImagen"
@@ -47,12 +46,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/cargar_imagen"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/bt_next"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/bt_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/siguiente"
